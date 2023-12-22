@@ -15,6 +15,7 @@ const dateFormMaker = function () {
   return dateFormat;
 };
 
+// data는 savedData - localStorage data
 const counterMaker = function (data) {
   if (data !== savedDate) {
     localStorage.setItem("saved-date", data);
